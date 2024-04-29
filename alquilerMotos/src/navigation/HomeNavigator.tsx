@@ -1,6 +1,8 @@
+// navigation/HomeNavigator.tsx
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from '../screens/HomeScreen';
+// Importa el resto de tus pantallas de inicio aquí
 
 const Stack = createStackNavigator();
 

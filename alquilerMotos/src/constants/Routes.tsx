@@ -1,8 +1,9 @@
+
 export default {
     HOME: 'Home',
-    RESERVATIONS: 'Reservations',
-    MOTORCYCLES: 'Motorcycles',
-    GARAGES: 'Garages',
-    AGENCIES: 'Agencies',
+    RESERVATION: 'Reservation',
+    MOTORCYCLE: 'Motorcycle',
+    GARAGE: 'Garage',
+    AGENCY: 'Agency',
   };
   

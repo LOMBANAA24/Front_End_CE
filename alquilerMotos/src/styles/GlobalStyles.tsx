@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Colors from '../constants/Colors';
-import Fonts from '../constants/Fonts';
+import Fonts from '../assets/fonts/Fonts';
 
 export default StyleSheet.create({
   container: {
@@ -16,3 +16,4 @@ export default StyleSheet.create({
     color: Colors.dark,
   },
 });
+

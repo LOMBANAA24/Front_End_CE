@@ -1,6 +1,14 @@
+
+import { Platform } from 'react-native';
+
 export default {
-    regular: 'Roboto-Regular',
-    bold: 'Roboto-Bold',
-    italic: 'Roboto-Italic',
-  };
-  
+  regular: Platform.select({
+    ios: 'Helvetica',
+    android: 'Roboto',
+  }),
+  bold: Platform.select({
+    ios: 'Helvetica-Bold',
+    android: 'Roboto-Bold',
+  }),
+  // Variantes de fuentes
+};

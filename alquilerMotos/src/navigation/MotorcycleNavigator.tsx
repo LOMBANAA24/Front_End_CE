@@ -1,13 +1,14 @@
+// MotorcycleNavigator.tsx
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import MotorcycleScreen from '../screens/MotorcycleScreen';
+import MotorcycleListScreen from '../screens/MotorcycleListScreen'; // Importa MotorcycleListScreen
 
 const Stack = createStackNavigator();
 
 const MotorcycleNavigator = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Motorcycle" component={MotorcycleScreen} />
-    {/* Añade aquí el resto de tus pantallas de motocicleta */}
+    <Stack.Screen name="MotorcycleList" component={MotorcycleListScreen} /> {/* Añade MotorcycleListScreen */}
+    {/* Aquí puedes agregar más pantallas de motocicletas si es necesario */}
   </Stack.Navigator>
 );
 
